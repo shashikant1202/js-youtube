@@ -43,3 +43,31 @@ console.log(typeof Symbol);
 // ******************(To Master JS OBJECTS AND WEB/BROWSER EVENTS)*******************
 
 // you can get types of operator in ECMA vaues docs
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//            *******Stack & Heap*******
+// Stack(Stores Primitive Data Types) :- It gives the copy of stored data from the Stack Memory
+
+// Heap(Stores Non-Primitive Data Types) :- It gives the reference of stored data from heap Memory
+
+
+let myYoutubename = "hiteshchoudhrydotcom"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",   //object --> IN THE {}
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
