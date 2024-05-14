@@ -69,4 +69,38 @@ console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));  //   KSI BHI OBJECT KA PROPERTY CHECK KARNE KE LIYE KI USME WO SPECIFIC CHIG HAI KI NAHI
 
+// ***************Destruting***********
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
 
+// course.courseInstructor // to make the repeatation nill we use this method to destructure
+
+const {courseInstructor: Instructor} = course  // if any name is long then make it short by using keys and values concept
+
+console.log(Instructor); 
+
+
+// const navbar = ({company}) => {    // destructing {} laga kar kiya jata hai  // keval objects ko hi nahi arrays o bhi destructur kiya jata hai
+
+// }
+
+// navbar(company = "hitesh")
+
+// ****************API*******************
+// SOME VALUES COMES FROM THE BACKEND IN EARLIER DAYS IT IS IN THE XML file but nowdays it comes in json file
+
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+
+// }
+
+[ // CAM ALSO BE ARRAY
+    {},
+    {},
+    {},
+]
