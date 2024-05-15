@@ -78,7 +78,7 @@ const course = {
 
 // course.courseInstructor // to make the repeatation nill we use this method to destructure
 
-const {courseInstructor: Instructor} = course  // if any name is long then make it short by using keys and values concept
+const {courseInstructor: Instructor} = course  // if any name is long then make it short by using keys and values concept like this ----> courseInstructor: Instructor
 
 console.log(Instructor); 
 
@@ -89,17 +89,24 @@ console.log(Instructor);
 
 // navbar(company = "hitesh")
 
-// ****************API*******************
-// SOME VALUES COMES FROM THE BACKEND IN EARLIER DAYS IT IS IN THE XML file but nowdays it comes in json file
+// **************** API ******************* 
+// SOME VALUES COMES FROM THE BACKEND IN EARLIER DAYS IT WAS IN THE XML file which were very complex but nowdays it comes in json file
 
+// ***********json file ************* In json file the keys and values are both in the strings
+
+// API are in object format
 // {
 //     "name": "hitesh",
 //     "coursename": "js in hindi",
 //     "price": "free"
 
 // }
+ 
+// In JS how we use fetch method
+// By fetch method we will call any URL and we will get data
 
-[ // CAM ALSO BE ARRAY
+//  API CAN ALSO BE IN ARRAY  -----> in the array there are many objects
+[
     {},
     {},
     {},
