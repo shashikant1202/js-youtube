@@ -54,31 +54,36 @@ function loginUserMessage(username = "sam"){
 // from user we get many argument due to which we have to give to parameter to add the total price of the items 
 
 function calculatorCartPrice(...num1){  //here in ...num1 REST operator is used which means jo jo chig num1 ke jagah hua hai usko ek bundle me add kar do jisse wo array bana kar de deta hai
-     //calculatorCartPrice(val1, val2, ...num1)  & console.log(calculatorCartPrice(200, 400, 500)); then the output will be [500,2003]
+
+    //calculatorCartPrice(val1, val2, ...num1)  & console.log(calculatorCartPrice(200, 400, 500)); then the output will be [500,2003]
      return num1
 }
 
-//console.log(calculatorCartPrice(200, 400, 500,2003));
+// console.log(calculatorCartPrice(200, 400, 500,2003));
 
 const user = {
-    usrname: "hitesh",
-    price: 190
-}
-function handleObject(anyobject){
-    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+    username: "hitesh",
+    price: 199
 }
 
- handleObject(user){
-    username:"sam"
-    price 299
+function handleObject(anyObj){
+    console.log(`Username is ${anyObject.username} and price is ${anyObject.price}`);
+}
+
+// handleObject(user)
+handleObject({
+    username: "sam",
+    price: 299
+ })
+
+ const myNewArray = [200, 400, 100,]
+
+ function returnSecondValue(getArray){
+
+ return getArray[1]
+
  }
 
- const myNweARray =[200, 400, 100,]
-
- function returnSecondValue(getArray)
- return getarray[1]
- }
-
- //  console.log(returnSecondValue(myNweARray));
- console.log(returnSecondValue(myNweARray)); //or array will also be ptint
- console.log(returnSecondValue([200,300,408]));
+  console.log(returnSecondValue(myNewArray));
+//  console.log(returnSecondValue(myNewArray)); //or array will also be print
+ console.log(returnSecondValue([200,400, 100]));
