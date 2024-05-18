@@ -9,4 +9,4 @@ const user = {
 }
 
 user.welcomeMessage
-
+console.log("welcome to the gecl");

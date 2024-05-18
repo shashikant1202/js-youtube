@@ -44,7 +44,7 @@ if (true) {
     const username = "hitesh"
       if (username === "hitesh") {
             const website = " youtube"
-           // console.log(username + website);
+           console.log(username + website);
 
         }
         // console.log(website);  //local scope se bahar nahi aayega
