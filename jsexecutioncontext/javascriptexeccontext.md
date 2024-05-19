@@ -59,4 +59,4 @@ The main concept in it is the when any method goes in the Global Execution After
 
 
 The complexity comes when There are many methods then 
-the methods which goes last in the Globsl Execution will be goes out first (LIFFO ----> Last In firest out
+the methods which goes last in the Globsl Execution will be goes out first (LIFFO ----> Last In first out)
