@@ -35,4 +35,4 @@ switch (month) {   //key = wo value jo hume baar baar check karna hai
     default:                   // kuch match nahi hua to  default value print ho jayega  like else in-else
         console.log("default case match");  
         break;
-}
+} 
