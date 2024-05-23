@@ -46,8 +46,8 @@ for (const [key, value] of map) {  // yaha par [key, value] ka use kar ke array 
 }
 
 const myObject = {
-    game1: 'NFS',
-    game2 : 'Spiderman'
+    "game1": 'NFS',
+   " game2 ": 'Spiderman'
 }
 
 // for (const [key, value] of myObject) {
