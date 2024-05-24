@@ -1,7 +1,7 @@
 
 const name = "hitesh"
 const repoCount = 50
-// console.log(name + repoCount + " Value"); //hitesh50 Value   // is type se humlog ab strings nahi likhte hai 
+// console.log(name + repoCount + " Value"); // --------> hitesh50 Value   // is type se humlog ab strings nahi likhte hai 
 
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`); //by using STRINGS INTERPULATION we can add/inject strings in the placeholder directly  // {`in between the backticks`}      
 //strings ko ab hum iss naye modern tarike se likhte hai 
@@ -19,9 +19,9 @@ const gameName = new String('hitesh-hc-com') // *edited hiteshhc
 // 6: "h"
 // 7: "c"
 // length: 
-console.log(gameName[0]);  //by using this we can get the key frame or 0th position character from the gameName variable
+console.log(gameName[0]);  // ----------> h //by using this we can get the key frame or 0th position character from the gameName variable
 
-console.log(gameName.__proto__); // by using this we get the objects from it BY applying (.) after the __proto__ like gameName.__proto__.toUpperCase
+console.log(gameName.__proto__); // by using this we get the objects from it BY applying (.) after the __proto__ like gameName.__proto__.toUpperCase  // We don't use it in modern days because of the performance implications , readability and maitainability
 
 console.log(gameName.length);  //It gives the length of the variable  
 
@@ -54,10 +54,14 @@ console.log(gameName.split('-')); //splitting on the basis of {-} //it forms arr
 
 
 // **************STRING METHOD****************
-// BLINK
-// BOLD
-//charAt()
-// concat
-//concat
-// constructor
-// endsWiths
+// BLINK  -----> No longer in use
+
+// BOLD   -----> use to bold the character
+
+//charAt()  ------> to get the character at specified position
+
+// concat    ------> used to merge two or more strings into one strings
+
+// constructor  ------> used to create and initialize an object within a class
+
+// endsWiths  -----> used to determine whether a string ends with the characters of a specified string
