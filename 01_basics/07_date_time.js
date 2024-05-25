@@ -1,7 +1,7 @@
 // every new feature in JS is defined by the TC39 like Fetch and other promises
  
 //  ***************DATES******************
-// date is onject
+// date is object
 let myDate = new Date()  //we are declaring Date variable 
 console.log(myDate); // printing date ---> 2024-05-05T19:18:40.769Z
 
