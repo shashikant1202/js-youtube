@@ -1,6 +1,6 @@
 // ******DATA TYPES(On the basis of how the data is stored and how we accesses it)
 
-// 1. Primitive  --> 7 categories : String, Number, Boolean, Null, Undefined, Symbol(to make uniqueness), BigInt(larger vallues)
+// 1. Primitive  --> 7 categories : String, Number, Boolean, Null, Undefined, Symbol(to make uniqueness), BigInt(larger values)
 
 
 //  ********JS IS DYNAMIC TYPED LANGUAGE (means it doesn't require to define which type of variable it is)  But in Statically typed languages It required to mention the type of variables*********
